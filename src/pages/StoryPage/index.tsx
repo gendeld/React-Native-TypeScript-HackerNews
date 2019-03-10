@@ -7,10 +7,10 @@ import {
   ActivityIndicator
 } from "react-native";
 import Header from "../../components/Header";
+import StoryProperty from "../../components/StoryProperty";
 import { OFF_WHITE, ALMOST_BLACK, DARK_GRAY } from "../../config/colors";
 import { getTimestampString } from "../../lib/functions";
 import textBind from "../../config/textBind";
-import StoryProperty from "../../components/StoryProperty";
 
 interface Props {
   navigation: any;
